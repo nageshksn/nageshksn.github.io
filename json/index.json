@@ -34,7 +34,7 @@
           },
           "items": [
             {
-              "type": "horizontal",
+              "type": "vertical",
               "style": {
                 "background": "#ffffff",
                 "align": "center"
@@ -62,6 +62,19 @@
                       "description": "{{$get.blank}}"
                     }
                   }
+                },
+                {
+                  "type": "button",
+                  "text": "Camera",
+                  "style": {
+                    "width": "60",
+                    "height": "50",
+                    "color": "#fffff",
+                    "background": "#0000ff"
+                  },
+                  "action": {
+                    "url": "https://nageshksn.github.io/json/camera.json"
+                   }
                 }
               ]
             },
