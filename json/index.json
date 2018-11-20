@@ -72,10 +72,11 @@
                     "color": "#ffffff",
                     "background": "#0000ff"
                   },
-                  "action": {
-                    "url": "https://nageshksn.github.io/json/camera.json"
+				   "href": {
+				     "url": "https://nageshksn.github.io/json/camera.json",
+                     "view": "web"
                    }
-                }
+                 }
               ]
             },
             {
