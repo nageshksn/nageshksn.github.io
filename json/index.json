@@ -67,9 +67,9 @@
                   "type": "button",
                   "text": "Camera",
                   "style": {
-                    "width": "60",
+                    "width": "80",
                     "height": "50",
-                    "color": "#fffff",
+                    "color": "#fff00",
                     "background": "#0000ff"
                   },
                   "action": {
