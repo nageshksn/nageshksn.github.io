@@ -161,17 +161,22 @@
                     "color": "rgb(200,130,0)",
                     "padding": "5"
                   }
-                },        {
-                  "type": "image",
-                  "url": "file://Test.JPG",
-                  "header": {
-                    "auth_token": "3nfdss3fNdlenghs_dnekgldnvq334hd"
-                  },
+                },       
+				{
+                  "type": "button",
+                  "text": "DD Value",
                   "style": {
-                    "width": "200",
-                    "height": "200",
-                    "corner_radius": "25",
-                    "padding": "0"
+                    "width": "60",
+                    "height": "50",
+                    "color": "#ffffff",
+                    "background": "#0000ff"
+                  },
+                  "action": {
+                    "type": "$util.banner",
+                    "options": {
+                      "title": "Selected Value",
+                      "description": "{{$get.shift}}"
+                    }
                   }
                 }
               ]
