@@ -1,0 +1,284 @@
+{
+    "$jason": {
+        "head": {
+            "offline": "true",
+            "actions": {
+                "$load": {
+                    "type": "$set",
+                    "options": {
+                        "selected": ""
+                    },
+                    "success": {
+                        "type": "$render"
+                    }
+                }
+               
+            },
+            "styles": {
+                "styled_row": {
+                    "background": "#d3b023"
+                },
+                "label_style": {
+                    "font": "Avenir-Bold",
+                    "size": "18",
+                    "color": "#ffffff",
+                    "background": "#d3b023",
+                    "spacing": "40",
+                    "padding": "5"
+                },
+                "content_style": {
+                    "font": "Avenir-Bold",
+                    "size": "18",
+                    "color": "#ffffff",
+                    "background": "#111111",
+                    "spacing": "40",
+                    "padding": "5"
+                }
+            },
+            "templates":{
+                "body": {
+                    "header": {
+                        "title": {
+                            "type": "label",
+                            "text": "Training Cable In-Line Splice Repair (3M 8kv kit 5761) ",
+                            "style": {
+                                "align": "left",
+                                "background": "#5ec6ff"
+                            }
+                        },
+                        "menu": {
+                            "text": "MTC-SOP-015",
+                            "style": {
+                                "color": "#ffffff",
+                                "font": "HelveticaNeue-Bold",
+                                "size": "15",
+                                "align": "center"
+                            }
+                        },
+        
+                        "style": {
+                            "background": "#5ec6ff",
+                            "color": "#ffffff",
+                            "font": "Avenir-Bold"
+                        }
+                    },
+                    "style": {
+        
+                        "background": "#aaaaaa"
+                    },
+        
+                    "sections": [{
+                        "style": {
+                            "color": "#ffffff",
+                            "background": "#aaaaaa"
+                        },
+                        "items": [{
+                                "type": "vertical",
+        
+                                "style": {
+                                    "width": "100%",
+                                    "padding": "0",
+                                    "border": "#aaaaaa"
+                                },
+        
+                                "components": [
+        
+                                    {
+                                        "type": "horizontal",
+                                        "style": {
+                                            "background": "#aaaaaa",
+                                            "padding": "5"
+                                        },
+                                        "components": [
+        
+                                            {
+                                                "type": "vertical",
+                                                "style": {
+                                                    "width": "60%"
+                                                },
+                                                "components": [{
+                                                        "type": "label",
+                                                        "text": "Procedure",
+                                                        "class": "label_style"
+        
+                                                    },
+                                                    {
+                                                        "type": "label",
+                                                        "text": "2. Cut the cable squarely to remove the damaged section and remove the outer jacket to the prescribed length (10”) on both ends. \n 3. Scruff the jacket ends for 3” with course #80 abrasive and remove dust. This will aid in a good adhesion when the mould is poured. \n 4. Remove all cable fillers back to end of the jacket and tape the pilot and ground wires back to the jacket with vinyl electrical tape.",
+                                                        "class": "content_style"
+        
+        
+                                                    }
+                                                ]
+        
+                                            },
+                                            {
+                                                "type": "vertical",
+                                                "style": {
+                                                    "spacing": "10",
+                                                    "padding_left": "15",
+                                                    "padding_bottom": "10"
+                                                },
+                                                "components": [
+                                                    {
+                                                        "type":"horizontal",
+                                                        "style":{
+                                                            "align":"right"
+                                                        },
+                                                        "components":[
+                                                            {
+                                                                "type": "button",
+                                                                "text": "Zoom",
+                                                                "style": {
+                                                                    "background": "#555555",
+                                                                    "color": "#ffffff",
+                                                                    "padding": "5",
+                                                                    "corner_width":"10",
+                                                                    "width":"150"
+                                                                },
+                                                                "href": {
+                                                                    "url": "https://sandhyasrini.github.io/json/procedure4.json",
+                                                                    "options": {
+                                                                        "file_name": "file://2.jpeg"
+                                                                    }
+                                                                  }
+                                                                
+                                                            } 
+                                                        ]
+                                                    },
+                                                {
+        
+                                                        "type": "image",
+                                                        "url": "file://2.jpeg"
+                                                    },
+                                                    {
+                                                        "type": "horizontal",
+                                                        "style": {
+                                                            "background": "#aaaaaa",
+                                                            "padding_top": "10"
+        
+        
+                                                        },
+                                                        "components": [
+        
+        
+                                                            {
+                                                                "type": "vertical",
+                                                                "style": {
+                                                                    "spacing": "10",
+                                                                    "padding_right": "20"
+                                                                },
+                                                                "components": [{
+                                                                        "style": {
+        
+                                                                        },
+                                                                        "type": "image",
+                                                                        "url": "local://{{$jason.file_name}}"
+                                                                    },
+                                                                    {
+                                                                        "type": "button",
+                                                                        "text": "Photo Thumb",
+                                                                        "style": {
+                                                                            "background": "#29428F",
+                                                                            "color": "#ffffff",
+                                                                            "padding": "5",
+                                                                            "corner_width":"10"
+                                                                            
+        
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "type": "vertical",
+                                                                "style": {
+                                                                    "spacing": "10"
+        
+                                                                },
+                                                                "components": [
+                                                                    {
+                                                                        "type": "button",
+                                                                        "text": "Take Photo",
+                                                                        "style": {
+                                                                            "background": "#29428F",
+                                                                            "color": "#ffffff",
+                                                                            "width": "150",
+                                                                            "padding": "5",
+                                                                            "spacing": "10",
+                                                                            "height": "30",
+                                                                            "align": "left",
+                                                                            "corner_width":"10"
+        
+        
+                                                                        },
+                                                                        "action": {
+                                                                            "type": "$media.camera",
+                                                                            
+                                                                            "success": {
+                                                                                "type": "$render"
+                                                                              
+                                                                            }
+                                                                        }
+                                                                    },  {
+                                                                        "type": "button",
+                                                                        "text": "Completed",
+                                                                        "style": {
+                                                                            "background": "#5ec6ff",
+                                                                            "color": "#ffffff",
+                                                                            "width": "150",
+                                                                            "padding": "5",
+                                                                            "spacing": "10",
+                                                                            "height": "30",
+                                                                            "align": "left",
+                                                                            "corner_width":"10"
+        
+                                                                        }
+                                                                    }, {
+                                                                        "type": "button",
+                                                                        "text": "Next",
+                                                                        "style": {
+                                                                            "background": "#2EBF63",
+                                                                            "color": "#ffffff",
+                                                                            "width": "150",
+                                                                            "padding": "5",
+                                                                            "spacing": "10",
+                                                                            "height": "30",
+                                                                            "align": "left",
+                                                                            "corner_width":"10"
+        
+        
+                                                                        },
+                                                                        "href": {
+                                                                            "url": "https://sandhyasrini.github.io/json/procedure3.json",
+                                                                            "view": "jason"
+                                                                        }
+                                                                    }   
+                                                                ]
+        
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+        
+                                        ]
+                                    }
+        
+        
+        
+                                  
+                                ]
+                            }
+        
+        
+                        ]
+        
+                    }]
+                }
+            }
+
+        }
+        
+
+    }
+}

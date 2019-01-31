@@ -1,0 +1,272 @@
+{
+    "$jason": {
+        "head": {
+            "offline":"true",
+            "styles": {
+                "styled_row": {
+                    "background": "#d3b023"
+                },
+                "label_style": {
+                    "font": "Avenir-Bold",
+                    "size": "18",
+                    "color": "#ffffff",
+                    "background": "#d3b023",
+                    "spacing": "40",
+                    "padding": "5"
+                },
+                "content_style": {
+                    "font": "Avenir-Bold",
+                    "size": "18",
+                    "color": "#ffffff",
+                    "background": "#111111",
+                    "spacing": "40",
+                    "padding": "5"
+                }
+            }
+
+        },
+        "body": {
+            "header": {
+                "title": {
+                    "type": "label",
+                    "text": "Training Cable In-Line Splice Repair (3M 8kv kit 5761) ",
+                    "style": {
+                        "align": "left",
+                        "background": "#5ec6ff"
+                    }
+                },
+                "menu": {
+                    "text": "MTC-SOP-015",
+                    "style": {
+                        "color": "#ffffff",
+                        "font": "HelveticaNeue-Bold",
+                        "size": "15",
+                        "align": "center"
+                    }
+                },
+
+                "style": {
+                    "background": "#5ec6ff",
+                    "color": "#ffffff",
+                    "font": "Avenir-Bold"
+                }
+            },
+            "style": {
+
+                "background": "#aaaaaa"
+            },
+
+            "sections": [{
+                "style": {
+                    "color": "#ffffff",
+                    "background": "#aaaaaa"
+                },
+                "items": [{
+                        "type": "vertical",
+                        "style": {
+                            "align": "fill",
+                            "color": "#ffffff",
+                            "padding": "10",
+                            "background": "#aaaaaa",
+                            "spacing": "5"
+
+                        },
+                        "components": [{
+                                "type": "horizontal",
+                                "style": {
+                                    "spacing": "10",
+                                    "background": "#aaaaaa"
+
+                                },
+
+                                "components": [{
+                                        "type": "label",
+                                        "text": "Purpose",
+                                        "class": "label_style"
+                                    },
+                                    {
+                                        "type": "label",
+                                        "text": "Scope / Background",
+                                        "class": "label_style"
+
+                                    },
+                                    {
+                                        "type": "label",
+                                        "text": "Responsibility",
+                                        "class": "label_style"
+
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "horizontal",
+                                "style": {
+                                    "spacing": "10",
+                                    "background": "#aaaaaa"
+
+                                },
+
+                                "components": [{
+                                        "type": "label",
+                                        "text": "To safely and carefully repair damaged electrical cable be performing an inLine Splice",
+                                        "class": "content_style"
+                                    },
+                                    {
+                                        "type": "label",
+                                        "text": "Mine Operations utilizes 2/0 3 conductor SHGGC 8 kv trailing cable to power electrical mining equipment. ",
+                                        "class": "content_style"
+
+                                    },
+                                    {
+                                        "type": "label",
+                                        "text": "Employer, Supervisors & Employees are described in the Ontario OH&S Act Section 25-28",
+                                        "class": "content_style"
+
+                                    }
+                                ]
+                            }
+
+
+
+
+                        ]
+                    },
+                    {
+                        "type": "vertical",
+                        "style": {
+                            "align": "fill",
+                            "color": "#ffffff",
+                            "padding": "10",
+                            "background": "#aaaaaa",
+                            "spacing": "5"
+
+                        },
+                        "components": [{
+                                "type": "horizontal",
+                                "style": {
+                                    "spacing": "10",
+                                    "background": "#aaaaaa"
+
+                                },
+
+                                "components": [{
+                                        "type": "label",
+                                        "text": "Occupation(s)",
+                                        "class": "label_style"
+                                    },
+                                    {
+                                        "type": "label",
+                                        "text": "Tools Matls & Equipt",
+                                        "class": "label_style"
+
+                                    },
+                                    {
+                                        "type": "label",
+                                        "text": "Hazards",
+                                        "class": "label_style"
+
+                                    },
+                                    {
+                                        "type": "label",
+                                        "text": "PPE",
+                                        "class": "label_style"
+
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "horizontal",
+                                "style": {
+                                    "spacing": "10",
+                                    "background": "#aaaaaa"
+
+                                },
+
+                                "components": [{
+                                        "type": "label",
+                                        "text": "Mine Maintenance Dept \n Electricians",
+                                        "class": "content_style"
+                                    },
+                                    {
+                                        "type": "label",
+                                        "text": "Conductor Inline kit \n 3M Cleaning Preparation \n 3M Flame Retardant \n Plastic Funnels \n Knife \n Electrical Tap",
+                                        "class": "content_style"
+
+                                    },
+                                    {
+                                        "type": "vertical",
+                                        "components": [{
+                                                "type": "label",
+                                                "text": "Electrocution \n Slips",
+                                                "class": "content_style"
+                                            },
+                                            {
+                                                "type": "horizontal",
+                                                "style": {
+                                                    "padding_top": "75"
+                                                },
+                                                "components": [{
+                                                    "type": "button",
+                                                    "text": "Reference Page",
+                                                    "style": {
+                                                        "background": "#FF3863",
+                                                        "color": "#ffffff",
+                                                        "size": "15",
+                                                        "padding_top": "5",
+                                                        "padding_bottom": "5"
+
+                                                    }
+                                                }]
+                                            }
+                                        ]
+
+                                    },
+                                    {
+                                        "type": "vertical",
+                                        "components": [{
+                                                "type": "label",
+                                                "text": "DG Standard PPE",
+                                                "class": "content_style"
+
+                                            },
+                                            {
+                                                "type": "horizontal",
+                                                "style": {
+                                                    "padding_top": "95"
+                                                },
+                                                "components": [{
+                                                    "type": "button",
+                                                    "text": "Start Procedure",
+                                                    "style": {
+                                                        "background": "#2EBF63",
+                                                        "color": "#ffffff",
+                                                        "size": "15",
+                                                        "padding_top": "5",
+                                                        "padding_bottom": "5"
+                                                    },
+                                                    "href": {
+                                                        "url": "https://sandhyasrini.github.io/json/procedure1.json",
+                                                        "view": "jason"
+                                                      }
+                                                }]
+                                            }
+
+                                        ]
+
+                                    }
+
+                                ]
+                            }
+
+
+
+
+                        ]
+                    }
+                ]
+
+            }]
+        }
+
+    }
+}

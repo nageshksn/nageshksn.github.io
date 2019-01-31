@@ -1,0 +1,204 @@
+{
+    "$jason": {
+        "head": {
+            "offline": "true",
+
+            "actions": {
+                "$load": {
+                    "type": "$set",
+                    "options": {
+                        "selected": ""
+                    },
+                    "success": {
+                        "type": "$render"
+                    }
+                }
+               
+            },
+            "styles": {
+                "styled_row": {
+                    "background": "#d3b023"
+                },
+                "label_style": {
+                    "font": "Avenir-Bold",
+                    "size": "18",
+                    "color": "#ffffff",
+                    "background": "#d3b023",
+                    "spacing": "40",
+                    "padding": "5"
+                },
+                "content_style": {
+                    "font": "Avenir-Bold",
+                    "size": "18",
+                    "color": "#ffffff",
+                    "background": "#111111",
+                    "spacing": "40",
+                    "padding": "5"
+                }
+            }
+
+        },
+        "body": {
+            "header": {
+                "title": {
+                    "type": "label",
+                    "text": "Training Cable In-Line Splice Repair (3M 8kv kit 5761) ",
+                    "style": {
+                        "align": "left",
+                        "background": "#5ec6ff"
+                    }
+                },
+                "menu": {
+                    "text": "MTC-SOP-015",
+                    "style": {
+                        "color": "#ffffff",
+                        "font": "HelveticaNeue-Bold",
+                        "size": "15",
+                        "align": "center"
+                    }
+                },
+
+                "style": {
+                    "background": "#5ec6ff",
+                    "color": "#ffffff",
+                    "font": "Avenir-Bold"
+                }
+            },
+            "style": {
+
+                "background": "#aaaaaa"
+            },
+
+            "sections": [{
+                "style": {
+                    "color": "#ffffff",
+                    "background": "#aaaaaa"
+                },
+                "items": [{
+                        "type": "vertical",
+
+                        "style": {
+                            "width": "100%",
+                            "padding": "0",
+                            "border": "#aaaaaa"
+                        },
+
+                        "components": [
+
+                            {
+                                "type": "horizontal",
+                                "style": {
+                                    "background": "#aaaaaa",
+                                    "padding": "5"
+                                },
+                                "components": [
+
+                                    {
+                                        "type": "vertical",
+                                        "style": {
+                                            "width": "50%",
+                                            "padding": "5",
+                                            "spacing": "10"
+                                        },
+                                        "components": [{
+                                                "type": "label",
+                                                "text": "Procedure",
+                                                "class": "label_style"
+
+                                            },
+                                            {
+                                                "type": "label",
+                                                "text": "42. Perform an insulated test @ 10kv on the power conductors and 500v on the ground check conductor. \n Acceptable insulation value for the power conductors is a minimum 800M ohm but typically exceed 20G ohm. \n Ground check conductor insulation value in typical over 20M ohm.",
+                                                "class": "content_style"
+
+
+                                            },
+                                            {
+                                                "type": "horizontal",
+                                                "style": {
+                                                    "spacing": "10"
+                                                },
+                                                "components": [{
+                                                        "type": "button",
+                                                        "text": "Top of Form",
+                                                        "style": {
+                                                            "background": "#2EBF63",
+                                                            "color": "#ffffff",
+                                                            "padding": "5",
+                                                            "corner_width":"10"
+
+                                                        },
+                                                        "href": {
+                                                            "url": "https://sandhyasrini.github.io/json/workflow.json",
+                                                            "view": "jason"
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "button",
+                                                        "text": "Completed",
+                                                        "style": {
+                                                            "background": "#5ec6ff",
+                                                            "color": "#ffffff",
+                                                            "padding": "5",
+                                                            "corner_width":"10"
+
+                                                        },
+                                                        "href": {
+                                                            "url": "https://sandhyasrini.github.io/json/example.json",
+                                                            "view": "jason"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+
+                                    },
+                                    {
+                                        "type": "vertical",
+                                        "style": {
+                                            "spacing": "10",
+                                            "padding_left": "15",
+                                            "padding_bottom": "15"
+                                        },
+                                        "components": [{
+
+                                                "type": "image",
+                                                "url": "file://img4.jpeg",
+                                                "style": {
+                                                    "width": "50%",
+                                                    "ratio": "2",
+                                                    "scaling":"-1.5"
+                                                }
+
+                                            },
+                                            {
+
+                                                "type": "image",
+                                                "url": "file://img5.jpeg",
+                                                "style": {
+                                                    "width": "48%",
+                                                    "ratio": "2",
+                                                    "padding_left":"15"
+                                                }
+                                            }
+
+                                        ]
+                                    }
+
+                                ]
+                            }
+
+
+
+
+                        ]
+                    }
+
+
+                ]
+
+            }]
+        }
+
+    }
+}
