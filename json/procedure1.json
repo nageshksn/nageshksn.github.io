@@ -215,7 +215,25 @@
 
                                                                         }
                                                                     }
-                                                                },{
+                                                                }, {
+                                                                    "type": "button",
+                                                                    "text": "Previous",
+                                                                    "style": {
+                                                                        "background": "#5ec6ff",
+                                                                        "color": "#ffffff",
+                                                                        "width": "150",
+                                                                        "padding": "5",
+                                                                        "spacing": "10",
+                                                                        "height": "30",
+                                                                        "align": "left",
+                                                                        "corner_width": "10"
+
+                                                                    },
+                                                                    "href": {
+                                                                        "url": "https://nageshksn.github.io/json/workflow.json",
+                                                                        "view": "jason"
+                                                                    }
+                                                                }, {
                                                                     "type": "button",
                                                                     "text": "Next",
                                                                     "style": {
