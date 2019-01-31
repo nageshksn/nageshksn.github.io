@@ -221,7 +221,7 @@
                                                                         }
                                                                     },  {
                                                                         "type": "button",
-                                                                        "text": "Completed",
+                                                                        "text": "Previous",
                                                                         "style": {
                                                                             "background": "#5ec6ff",
                                                                             "color": "#ffffff",
@@ -232,6 +232,10 @@
                                                                             "align": "left",
                                                                             "corner_width":"10"
         
+                                                                        },
+                                                                        "href": {
+                                                                            "url": "https://nageshksn.github.io/json/preocedure1.json",
+                                                                            "view": "jason"
                                                                         }
                                                                     }, {
                                                                         "type": "button",
