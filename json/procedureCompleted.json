@@ -118,21 +118,7 @@
                                                 "style": {
                                                     "spacing": "10"
                                                 },
-                                                "components": [{
-                                                        "type": "button",
-                                                        "text": "Top of Form",
-                                                        "style": {
-                                                            "background": "#2EBF63",
-                                                            "color": "#ffffff",
-                                                            "padding": "5",
-                                                            "corner_width":"10"
-
-                                                        },
-                                                        "href": {
-                                                            "url": "https://sandhyasrini.github.io/json/workflow.json",
-                                                            "view": "jason"
-                                                        }
-                                                    },
+                                                "components": [
                                                     {
                                                         "type": "button",
                                                         "text": "Completed",
@@ -144,7 +130,7 @@
 
                                                         },
                                                         "href": {
-                                                            "url": "https://sandhyasrini.github.io/json/example.json",
+                                                            "url": "https://sandhyasrini.github.io/json/workflow.json",
                                                             "view": "jason"
                                                         }
                                                     }
