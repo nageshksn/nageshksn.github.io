@@ -137,7 +137,7 @@
                                                                 "width":"150"
                                                             },
                                                             "href": {
-                                                                "url": "https://sandhyasrini.github.io/json/procedure4.json",
+                                                                "url": "https://sandhyasrini.github.io/json/Zoom.json",
                                                                 "options": {
                                                                     "file_name": "file://3.jpeg"
                                                                 }
@@ -248,7 +248,7 @@
         
                                                                         },
                                                                         "href": {
-                                                                            "url": "https://sandhyasrini.github.io/json/procedureCompleted.json",
+                                                                            "url": "https://sandhyasrini.github.io/json/workflow.json",
                                                                             "view": "jason"
                                                                         }
                                                                     }   

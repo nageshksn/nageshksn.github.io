@@ -29,7 +29,7 @@
             "header": {
                 "title": {
                     "type": "label",
-                    "text": "Training Cable In-Line Splice Repair (3M 8kv kit 5761)------Test ",
+                    "text": "Training Cable In-Line Splice Repair (3M 8kv kit 5761)",
                     "style": {
                         "align": "left",
                         "background": "#5ec6ff"
@@ -245,7 +245,7 @@
                                                         "padding_bottom": "5"
                                                     },
                                                     "href": {
-                                                        "url": "https://sandhyasrini.github.io/json/procedure1.json",
+                                                        "url": "https://nageshksn.github.io/json/procedure1.json",
                                                         "view": "jason"
                                                       }
                                                 }]
