@@ -215,21 +215,7 @@
 
                                                                         }
                                                                     }
-                                                                }, {
-                                                                    "type": "button",
-                                                                    "text": "Completed",
-                                                                    "style": {
-                                                                        "background": "#5ec6ff",
-                                                                        "color": "#ffffff",
-                                                                        "width": "150",
-                                                                        "padding": "5",
-                                                                        "spacing": "10",
-                                                                        "height": "30",
-                                                                        "align": "left",
-                                                                        "corner_width": "10"
-
-                                                                    }
-                                                                }, {
+                                                                },{
                                                                     "type": "button",
                                                                     "text": "Next",
                                                                     "style": {
