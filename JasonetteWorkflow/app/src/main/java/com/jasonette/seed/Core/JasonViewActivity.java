@@ -45,6 +45,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
+
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem;
 import com.bumptech.glide.Glide;
@@ -152,9 +154,22 @@ public class JasonViewActivity extends AppCompatActivity implements ActivityComp
 //            ActivityCompat.requestPermissions(this, new String[] {android.Manifest.permission.CAMERA} , 1);
 //        }
 
+//        int permission = ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA);
+//        if (permission != PackageManager.PERMISSION_GRANTED) {
+//            ActivityCompat.requestPermissions(this, PERMISSIONS_STORAGE, REQUEST_EXTERNAL_STORAGE);
+//        }
+
+
         int permission = ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA);
         if (permission != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(this, PERMISSIONS_STORAGE, REQUEST_EXTERNAL_STORAGE);
+            if(ActivityCompat.shouldShowRequestPermissionRationale(this,Manifest.permission.CAMERA))
+            {
+                Toast.makeText(this,"Camera permission is needed to show the camera preview.",Toast.LENGTH_SHORT).show();
+            }
+            else {
+                //ActivityCompat.requestPermissions(this, PERMISSIONS_STORAGE, REQUEST_EXTERNAL_STORAGE);
+                ActivityCompat.requestPermissions(this,new String[] {Manifest.permission.CAMERA}, REQUEST_EXTERNAL_STORAGE);
+            }
         }
 
         loaded = false;
@@ -2974,7 +2989,11 @@ public class JasonViewActivity extends AppCompatActivity implements ActivityComp
     @Override
     public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
         if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-            cameraManager.startVision(JasonViewActivity.this);
+            try {
+                cameraManager.startVision(JasonViewActivity.this);
+            }catch (Exception ex){
+                Log.e("Permission Error", ex.getMessage());
+            }
         } else {
             Log.d("Warning", "Waiting for permission approval");
         }
